@@ -1,0 +1,108 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+
+#table{
+     overflow:scroll;
+     overflow-y: visible;
+     overflow-x: visible;
+     height:115px;
+     width:100px;
+}
+
+.logousuario{
+	margin-top: -90px;
+	margin-right: -275px;
+	z-index: 1;
+}
+
+.nombreusuario{
+	margin-right: -195px;
+	margin-top: -50px;
+}
+
+th{
+	border-radius: 5px;
+	width: 5%;
+}
+
+material-icons{
+	margin-left: 5px;	
+}
+.menu{
+	position: fixed;
+	z-index: 1;
+}
+.botonSalir{
+	margin-top: 30px;
+	margin-right: -300px;
+}
+.barra{	
+	margin-bottom: 10px;
+}
+.btn{
+	margin-bottom: 10px;
+	margin-left: 50px;
+}
+
+.home{
+}
+
+.logobien:hover{
+	color: teal;
+}
+#div1 {
+     overflow:scroll;
+     height:20%;
+     width:100%;
+}
+.fijo{
+	position:fixed;
+	top: 260px;
+}
+.rigistrar{
+	bottom: 20px;
+}
+.tabla{
+}
+
+.GridViewScrollHeader TH, .GridViewScrollHeader TD {
+    padding: 10px;
+    font-weight: normal;
+    white-space: nowrap;
+    border-right: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+    background-color: #F4F4F4;
+    color: #999999;
+    text-align: left;
+    vertical-align: bottom;
+}
+
+.GridViewScrollItem TD {
+    padding: 10px;
+    white-space: nowrap;
+    border-right: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+    background-color: #FFFFFF;
+    color: #444444;
+}
+
+.GridViewScrollItemFreeze TD {
+    padding: 10px;
+    white-space: nowrap;
+    border-right: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+    background-color: #FAFAFA;
+    color: #444444;
+}
+
+.GridViewScrollFooterFreeze TD {
+    padding: 10px;
+    white-space: nowrap;
+    border-right: 1px solid #e6e6e6;
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+    background-color: #F4F4F4;
+    color: #444444;
+}
